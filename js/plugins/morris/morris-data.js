@@ -7,58 +7,58 @@ $(function() {
         element: 'morris-area-chart',
         data: [{
             period: '2010 Q1',
-            iphone: 2666,
-            ipad: null,
-            itouch: 2647
+            so2: 2666,
+            no2: null,
+            o3: 2647
         }, {
             period: '2010 Q2',
-            iphone: 2778,
-            ipad: 2294,
-            itouch: 2441
+            so2: 2778,
+            no2: 2294,
+            o3: 2441
         }, {
             period: '2010 Q3',
-            iphone: 4912,
-            ipad: 1969,
-            itouch: 2501
+            so2: 4912,
+            no2: 1969,
+            o3: 2501
         }, {
             period: '2010 Q4',
-            iphone: 3767,
-            ipad: 3597,
-            itouch: 5689
+            so2: 3767,
+            no2: 3597,
+            o3: 5689
         }, {
             period: '2011 Q1',
-            iphone: 6810,
-            ipad: 1914,
-            itouch: 2293
+            so2: 6810,
+            no2: 1914,
+            o3: 2293
         }, {
             period: '2011 Q2',
-            iphone: 5670,
-            ipad: 4293,
-            itouch: 1881
+            so2: 5670,
+            no2: 4293,
+            o3: 1881
         }, {
             period: '2011 Q3',
-            iphone: 4820,
-            ipad: 3795,
-            itouch: 1588
+            so2: 4820,
+            no2: 3795,
+            o3: 1588
         }, {
             period: '2011 Q4',
-            iphone: 15073,
-            ipad: 5967,
-            itouch: 5175
+            so2: 15073,
+            no2: 5967,
+            o3: 5175
         }, {
             period: '2012 Q1',
-            iphone: 10687,
-            ipad: 4460,
-            itouch: 2028
+            so2: 10687,
+            no2: 4460,
+            o3: 2028
         }, {
             period: '2012 Q2',
-            iphone: 8432,
-            ipad: 5713,
-            itouch: 1791
+            so2: 8432,
+            no2: 5713,
+            o3: 1791
         }],
         xkey: 'period',
-        ykeys: ['iphone', 'ipad', 'itouch'],
-        labels: ['iPhone', 'iPad', 'iPod Touch'],
+        ykeys: ['so2', 'no2', 'o3'],
+        labels: ['so2', 'no2', 'o3'],
         pointSize: 2,
         hideHover: 'auto',
         resize: true
@@ -196,22 +196,22 @@ $(function() {
     Morris.Bar({
         element: 'morris-bar-chart',
         data: [{
-            device: 'iPhone',
+            device: 'so2',
             geekbench: 136
         }, {
-            device: 'iPhone 3G',
+            device: 'so2 3G',
             geekbench: 137
         }, {
-            device: 'iPhone 3GS',
+            device: 'so2 3GS',
             geekbench: 275
         }, {
-            device: 'iPhone 4',
+            device: 'so2 4',
             geekbench: 380
         }, {
-            device: 'iPhone 4S',
+            device: 'so2 4S',
             geekbench: 655
         }, {
-            device: 'iPhone 5',
+            device: 'so2 5',
             geekbench: 1571
         }],
         xkey: 'device',
